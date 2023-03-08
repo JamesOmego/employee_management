@@ -15,6 +15,12 @@ namespace EmployeesManagement.Models
 
         public required string LastName { get; set; }
 
+        public required string Gender { get; set; }
+
         public required  string EmailAddress { get; set; }
+
+        public required string Region { get; set; }
+
+        public  string Phone { get; set; }
     }
 }
